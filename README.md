@@ -9,7 +9,7 @@ The code is coming soon!
 
 ```
 @inproceedings{
-anonymous2023learn,
+rastegar2023learn,
 title={Learn to Categorize or Categorize to Learn? Self-Coding for Generalized Category Discovery},
 author={Sarah Rastegar and Hazel Doughty and Cees Snoek},
 booktitle={Thirty-seventh Conference on Neural Information Processing Systems},

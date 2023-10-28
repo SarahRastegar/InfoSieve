@@ -1,7 +1,7 @@
 # InfoSieve
 
 Repository for our NeurIPS 2023 paper "Learn to Categorize or Categorize to Learn? Self-Coding for Generalized Category Discovery":
-[Arxiv][OpenReview]
+
 The code is coming soon!
 
 ## <a name="cite"/> :clipboard: Citation

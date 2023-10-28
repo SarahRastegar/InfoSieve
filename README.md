@@ -4,6 +4,12 @@ Repository for our NeurIPS 2023 paper "Learn to Categorize or Categorize to Lear
 
 The code is coming soon!
 
+<!--[1. Running](#running)
+
+[2. Results](#results)
+
+[3. Citation](#cite)-->
+
 ## <a name="cite"/> :clipboard: Citation
 
 

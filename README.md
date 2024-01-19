@@ -1,6 +1,17 @@
 # Learn to Categorize or Categorize to Learn? Self-Coding for Generalized Category Discovery
 
-The code for our NeurIPS 2023 paper: [Learn to Categorize or Categorize to Learn? Self-Coding for Generalized Category Discovery](https://arxiv.org/abs/2310.19776)
+
+<p align="center">
+    <a href="https://openreview.net/forum?id=m0vfXMrLwF&noteId=m0vfXMrLwF"><img src="https://img.shields.io/badge/-NeurIPS%2023-blue"></a>
+    <a href="https://arxiv.org/abs/2310.19776"><img src="https://img.shields.io/badge/arXiv-2310.19776-red"></a>
+</p>
+<p align="center">
+	Learn to Categorize or Categorize to Learn? Self-Coding for Generalized Category Discovery (NeurIPS 2023)<br>
+  By
+  <a href="https://sarahrastegar.github.io/">Sarah Rastegar</a>, 
+  <a href="https://hazeldoughty.github.io/">Hazel Doughty</a>, and 
+  <a href="https://www.ceessnoek.info/">Cees Snoek</a>.
+</p>
 
 ![image](assets/tree.png)
 

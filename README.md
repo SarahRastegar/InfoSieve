@@ -24,11 +24,24 @@
 pip install -r requirements.txt
 ```
 
+### kmeans_pytorch Installation
+Since our work relies heavily on [kmeans_pytorch](https://github.com/subhadarship/kmeans_pytorch) for cluster assignments, you need to ensure that it is correctly imported to reproduce the results from the paper. You can install `kmeans_pytorch` directly in the directory by executing the following commands:
+
+```
+cd InfoSieve
+git clone https://github.com/subhadarship/kmeans_pytorch
+cd kmeans_pytorch
+pip install --editable .
+```
+
+**Note:** While using `scikit-learn`'s KMeans provides improvements, the results in the paper have been reported using `kmeans_pytorch`.
+
 ## Config
 
 Set paths to datasets, pre-trained models and desired log directories in ```config.py```
 
 Set ```SAVE_DIR``` (logfile destination) and ```PYTHON``` (path to python interpreter) in ```bash_scripts``` scripts.
+
 
 ## Datasets
 
@@ -44,8 +57,14 @@ We also use generic object recognition datasets, including:
 ## Scripts
 
 **Train representation**:
+To run the code with the hyperparameters used in the paper, execute the following command:
 
 ```
+python contrastive_training.py
+```
+This script will automatically train the representations, extract features, and fit the semi-supervised KMeans algorithm. It also provides final evaluations on both the best checkpoint and the final checkpoint.
+
+<!--```
 bash bash_scripts/contrastive_train.sh
 ```
 
@@ -62,6 +81,7 @@ bash bash_scripts/extract_features.sh
 bash bash_scripts/k_means.sh
 ```
 
+**-->
 
 ## <a name="cite"/> :clipboard: Citation
 

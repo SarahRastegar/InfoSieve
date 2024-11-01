@@ -2,7 +2,7 @@
 
 
 <p align="center">
-    <a href="https://openreview.net/forum?id=m0vfXMrLwF&noteId=m0vfXMrLwF"><img src="https://img.shields.io/badge/-NeurIPS%2023-blue"></a>
+    <a href="https://openreview.net/forum?id=m0vfXMrLwF&noteId=m0vfXMrLwF"><img src="https://img.shields.io/badge/NeurIPS%2023-blue"></a>
     <a href="https://arxiv.org/abs/2310.19776"><img src="https://img.shields.io/badge/arXiv-2310.19776-red"></a>
 </p>
 <p align="center">
@@ -111,3 +111,6 @@ url={https://openreview.net/forum?id=m0vfXMrLwF}
 ## Acknowledgements
 
 The codebase is mainly built on the repo of https://github.com/sgvaze/generalized-category-discovery.
+
+## Further Resources
+If you found our code helpful and are interested in exploring more, also check out our **ECCV 2024** paper *SelEx: Self-Expertise in Fine-Grained Generalized Category Discovery* <a href="https://www.arxiv.org/abs/2408.14371"><img src="https://img.shields.io/badge/arXiv-2408.14371-red"></a> <a href="https://github.com/SarahRastegar/SelEx"><img src="https://img.shields.io/badge/GitHub-SelEx-green"></a>.
